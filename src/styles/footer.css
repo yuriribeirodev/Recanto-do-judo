@@ -1,0 +1,140 @@
+footer {
+  background-color: #A81421;
+  padding: 16px 16px;
+  color: white;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+footer hr {
+  border: 0.5px solid whitesmoke;
+  margin: 1.5rem 0;
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.footer__bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.footer__logo img {
+  height: 4rem;
+  width: auto;
+}
+
+.footer__nav .nav__lista {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__nav .nav__item a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.footer__nav .nav__item a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: white;
+}
+
+.footer__social .nav__lista {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__social .nav__item a img {
+  height: 2rem;
+  width: 2rem;
+  object-fit: contain;
+}
+
+.footer__copy p {
+  color: white;
+  font-size: 0.9rem;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-voltar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-voltar img {
+  height: 1rem;
+  width: auto;
+}
+
+.footer__logo img {
+  transition: transform 1s;
+}
+
+.footer__logo img:hover {
+  transform: scale(1.1);
+}
+
+.footer__nav .nav__item a {
+  transition: color 0.4s;
+}
+
+.footer__nav .nav__item a:hover {
+  color: white;
+}
+
+.footer__nav .nav__item a:hover::after {
+  width: 100%;
+  transition: width 1s ease;
+}
+
+.footer__social .nav__item a img {
+  transition: transform 0.3s ease;
+}
+
+.footer__social .nav__item a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-voltar {
+  transition: transform 0.3s ease;
+}
+
+.footer-voltar:hover {
+  color: white;
+}
