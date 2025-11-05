@@ -1,55 +1,78 @@
-import '../styles/footer.css';
-
 export function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer__container">
-        <div className="footer__logo">
-          <img src="footer-logo.png" alt="Logo Recanto" />
+    <footer className="bg-[#A81421] text-white font-sans text-base py-6 px-4">
+      <div className="flex justify-between items-center w-[90%] max-w-[87.5rem] mx-auto gap-8 flex-wrap md:flex-nowrap">
+        <div className="flex justify-center md:justify-start items-center flex-shrink-0 min-w-[6rem] w-full md:w-auto">
+          <img
+            src="footer-logo.png"
+            alt="Logo Recanto"
+            className="h-auto w-auto max-h-16 max-w-full min-h-12 min-w-[6rem] object-contain transition-transform duration-300 hover:scale-110"
+          />
         </div>
 
-        <div className="footer__nav">
-          <ul className="footer__nav-lista">
-            <li className="footer__nav-item"><a href="#Sobre">Sobre</a></li>
-            <li className="footer__nav-item"><a href="#Depoimentos">Depoimentos</a></li>
-            <li className="footer__nav-item"><a href="#Contato">Contato</a></li>
-            <li className="footer__nav-item"><a href="#Galeria">Galeria</a></li>
-            <li className="footer__nav-item"><a href="#Parceiros">Parceiros</a></li>
+        <nav className="w-full md:w-auto">
+          <ul className="flex flex-col md:flex-row gap-6 md:gap-8 text-center md:text-left p-0 m-0 list-none">
+            <li><a href="#Sobre" className="font-bold relative inline-block hover:after:w-full after:transition-all after:duration-1000 after:content-[''] after:block after:absolute after:left-0 after:bottom-[-0.25rem] after:w-0 after:h-[0.125rem] after:bg-white transition-colors duration-400 hover:text-white">Sobre</a></li>
+            <li><a href="#Depoimentos" className="font-bold relative inline-block hover:after:w-full after:transition-all after:duration-1000 after:content-[''] after:block after:absolute after:left-0 after:bottom-[-0.25rem] after:w-0 after:h-[0.125rem] after:bg-white transition-colors duration-400 hover:text-white">Depoimentos</a></li>
+            <li><a href="#Contato" className="font-bold relative inline-block hover:after:w-full after:transition-all after:duration-1000 after:content-[''] after:block after:absolute after:left-0 after:bottom-[-0.25rem] after:w-0 after:h-[0.125rem] after:bg-white transition-colors duration-400 hover:text-white">Contato</a></li>
+            <li><a href="#Galeria" className="font-bold relative inline-block hover:after:w-full after:transition-all after:duration-1000 after:content-[''] after:block after:absolute after:left-0 after:bottom-[-0.25rem] after:w-0 after:h-[0.125rem] after:bg-white transition-colors duration-400 hover:text-white">Galeria</a></li>
+            <li><a href="#Parceiros" className="font-bold relative inline-block hover:after:w-full after:transition-all after:duration-1000 after:content-[''] after:block after:absolute after:left-0 after:bottom-[-0.25rem] after:w-0 after:h-[0.125rem] after:bg-white transition-colors duration-400 hover:text-white">Parceiros</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
 
-      <hr className="footer__hr" />
+      <hr className="border border-[whitesmoke] my-8 w-[70%] mx-auto md:w-[80%] sm:w-[85%] max-[480px]:w-[90%]" />
 
-      <div className="footer__bottom-container">
-        <div className="footer__social">
-          <ul className="footer__social-lista">
-            <li className="footer__social-item">
+      <div className="flex justify-between items-center flex-wrap gap-6 w-[90%] max-w-[87.5rem] mx-auto py-4 flex-col md:flex-col lg:flex-row">
+        <div className="flex justify-center lg:justify-start">
+          <ul className="flex justify-center gap-6 list-none p-0 m-0">
+            <li>
               <a href="https://www.instagram.com/instagram/" target="_blank" rel="noopener noreferrer">
-                <img src="/footer-instagram.png" alt="Instagram" />
+                <img
+                  src="/footer-instagram.png"
+                  alt="Instagram"
+                  className="h-8 w-8 object-contain transition-transform duration-300 hover:scale-110"
+                />
               </a>
             </li>
-            <li className="footer__social-item">
+            <li>
               <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-                <img src="/footer-whatsapp.png" alt="WhatsApp" />
+                <img
+                  src="/footer-whatsapp.png"
+                  alt="WhatsApp"
+                  className="h-8 w-8 object-contain transition-transform duration-300 hover:scale-110"
+                />
               </a>
             </li>
-            <li className="footer__social-item">
+            <li>
               <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
-                <img src="/footer-tiktok.png" alt="Tiktok" />
+                <img
+                  src="/footer-tiktok.png"
+                  alt="Tiktok"
+                  className="h-8 w-8 object-contain transition-transform duration-300 hover:scale-110"
+                />
               </a>
             </li>
           </ul>
         </div>
 
-        <div className="footer__copy">
-          <p>Copyright 2025 © Todos os direitos reservados | Desenvolvido por Open Code</p>
+        <div className="text-center">
+          <p className="text-base md:text-lg leading-relaxed">
+            Copyright 2025 © Todos os direitos reservados | Desenvolvido por Open Code
+          </p>
         </div>
 
-        <div className="footer__top">
-          <a href="#Header" className="footer__voltar">
-            <p>Voltar ao topo</p>
-            <img src="/footer-seta.png" alt="Seta" />
+        <div className="flex justify-center lg:justify-end">
+          <a
+            href="#Header"
+            className="flex items-center justify-center gap-2 text-white no-underline transition-transform duration-300 hover:scale-110"
+          >
+            <p className="text-base md:text-lg leading-relaxed">Voltar ao topo</p>
+            <img
+              src="/footer-seta.png"
+              alt="Seta"
+              className="h-4 w-auto object-contain md:h-3 sm:h-3 max-[480px]:h-3"
+            />
           </a>
         </div>
       </div>
