@@ -65,7 +65,7 @@ export function Footer() {
         <div className="flex justify-center lg:justify-end">
           <a
             href="#Header"
-            className="flex items-center justify-center gap-2 text-white no-underline transition-transform duration-300 hover:scale-110"
+            className="flex items-center justify-center gap-2 text-white no-underline transition-transform duration-300 hover:scale-110 mb-5"
           >
             <p className="text-base md:text-lg leading-relaxed">Voltar ao topo</p>
             <img
