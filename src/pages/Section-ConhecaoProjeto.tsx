@@ -14,6 +14,7 @@ export function ConhecaOPorjeto(){
                 <div className="img flex justify-center items-center">
                     <img src="public/imgSobrenos.png" alt="Imagem de Alunos do projeto Recanto do Judô" />
                 </div>
+                <div></div>
             </div>
 
         </div>
