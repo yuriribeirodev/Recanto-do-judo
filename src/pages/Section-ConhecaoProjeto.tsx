@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button.tsx'
 
 
-export function ConhecaOPorjeto(){
+export function ConhecaOProjeto(){
     function Vaquinha(){
         
 
