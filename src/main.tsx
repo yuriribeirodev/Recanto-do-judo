@@ -7,8 +7,8 @@ import './styles/index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <CardSection/>
     <ConhecaOPorjeto/>
+    <CardSection/>
     <Footer/>
   </StrictMode>,
 )
