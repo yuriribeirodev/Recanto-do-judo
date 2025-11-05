@@ -2,10 +2,11 @@ import { Button } from '@/components/ui/button.tsx'
 
 
 export function ConhecaOPorjeto(){
+    
     function Vaquinha(){
+        const url:string="https://www.vakinha.com.br/ong/centro-de-estudos-das-relacoes-de-trabalho-e-desigualdades?utm_internal_source=ongs-parceiras-quero-doar"
         
-
-
+        window.location.href=url
     }
 
 
@@ -20,7 +21,7 @@ export function ConhecaOPorjeto(){
                     <h2 className="text-4xl font-bold text-vermelho-letrash1 text-left">Conheça o Projeto</h2>
                 
                     <p className="text-vermelho-letrasp text-xl leading-relaxed text-left" >  O Recanto Judô é um projeto social sem fins lucrativos criado para levar o judô ao bairro COHAB e promover inclusão por meio do esporte. Fundado por Gildean dos Santos após conquistar a faixa preta, começou em uma igreja e hoje funciona na maçonaria, com apoio da comunidade e do vereador Raimundo Penha. Hoje tem seis atletas classificados para competições nacionais.O projeto reforça valores como disciplina, esforço e cidadania, e oferece novas oportunidades para jovens e adultos da comunidade.</p>
-                    <Button className='w-1/3' variant="destructive">Seja um apoiador</Button>
+                    <Button onClick={Vaquinha} className='w-1/3' variant="destructive">Seja um apoiador</Button>
                 </div>
                 <div className="w-4/5 h-auto img flex justify-center items-center">
                     <img src="public/ImagemSobreNos.png" alt="Imagem de Alunos do projeto Recanto do Judô" />
