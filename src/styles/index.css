@@ -1,8 +1,11 @@
 @import 'tailwindcss';
 
 @theme {
-    --color-azul-500: #1C3563;
-    --color-branco-200: #F7FCFF;
+    --color-azul-fundoSection: #1C3563;
+    --color-branco-fundoCards: #F7FCFF;
     --color-vermelho-letrash1: #730E16;
     --color-vermelho-letrasp: #8F111C;
+    --color-vermelho-header: #A81421;
+    --color-vermelho-botão: #801018;
+    --color-azul-fundoSobreNosVideoGaleria: #E3E3E3;
 }
