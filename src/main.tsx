@@ -4,6 +4,7 @@ import { CardSection } from './pages/CardSection.tsx'
 import { Footer } from './pages/Footer.tsx'
 import { ConhecaOProjeto } from './pages/Section-ConhecaoProjeto.tsx'
 import { DepoimentoCriador } from './pages/Section-DepoimentoCriador.tsx'
+import { Depoimentos } from './pages/Section-Depoimentos.tsx'
 import './styles/index.css'
 import Header from './pages/Header.tsx'
 
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')!).render(
     <Header/>
     <ConhecaOProjeto/>
     <DepoimentoCriador/>
+    <Depoimentos/>
     <CardSection/>
     <Footer/>
   </StrictMode>,
