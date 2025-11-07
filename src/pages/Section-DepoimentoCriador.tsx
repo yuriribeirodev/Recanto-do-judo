@@ -11,7 +11,7 @@ export function DepoimentoCriador(){
 
 
     return(
-         <div className="w-full h-auto bg-azul-fundoSobreNosVideoGaleria bg-[url('public/fundo.png')] bg-left-bottom bg-no-repeat bg-[size:300px_auto] md:bg-[size:600px_auto] z-3">
+         <div className="w-full h-auto bg-azul-fundoSobreNosVideoGaleria bg-[url('public/fundo.png')] bg-left-bottom bg-no-repeat bg-[size:300px_auto] md:bg-[size:600px_auto] ">
 
             <div className="max-w-full p-8 md:p-16 mx-auto">
 
@@ -20,7 +20,7 @@ export function DepoimentoCriador(){
                     <div className='w-full flex flex-col gap-[58px]'>
 
 
-                        <h2 className="text-4xl font-bold text-vermelho-letrash1 text-left z-0">A Filosofia por Trás do Tatame</h2>
+                        <h2 className="text-4xl font-bold font-inter text-vermelho-letrash1 text-left z-0">A Filosofia por Trás do Tatame</h2>
                     
                         <div className="w-full h-auto img flex justify-center items-center z-0">
                             <RenderVideos IdVideo={'a10UB2LH8y0'} />
