@@ -58,7 +58,7 @@ export function Footer() {
 
         <div className="text-center">
           <p className="text-base md:text-lg leading-relaxed">
-            Copyright 2025 © Todos os direitos reservados | Desenvolvido por Open Code
+            Copyright 2025 © Todos os direitos reservados | Desenvolvido por Open Code 
           </p>
         </div>
 
