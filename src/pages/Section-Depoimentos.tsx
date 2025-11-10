@@ -12,7 +12,7 @@ import {
 export function Depoimentos() {
     return(
 
-        <div className="bg-[url('public/fundoInvertido.png')] bg-no-repeat bg-[size:300px_auto] md:bg-[size:600px_auto]">
+        <div>
 
             <section className="w-full md:w-4/5 p-16 justify-between gap-20w-full flex flex-col md:flex-col items-justify mx-auto gap-12">
                 <h2 className="text-vermelho-botao text-4xl font-bold font-inter">Depoimentos</h2>
