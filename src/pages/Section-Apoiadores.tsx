@@ -21,13 +21,13 @@ export function Apoiadores(){
                     <Marquee>
                       <MarqueeFade side="left" />
                       <MarqueeFade side="right" />
-                      <MarqueeContent speed={40}>
+                      <MarqueeContent speed={30}>
                         {new Array(10).fill(null).map((_, index) => (
-                          <MarqueeItem className="h-32 w-32" key={index}>
+                          <MarqueeItem className="mx-24 h-64 w-64 flex items-center justify-center" key={index}>
                             <img
                               alt={`Apoiador ${index}`}
-                              className="overflow-hidden rounded-full object-cover"
-                              src={`https://placehold.co/128x128?random=${index}`}
+                              className="overflow-visible rounded-full object-cover"
+                              src="/logo-montebranco.png"
                             />
                           </MarqueeItem>
                         ))}

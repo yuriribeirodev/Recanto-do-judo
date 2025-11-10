@@ -63,9 +63,9 @@ export function Footer() {
         </div>
 
         <div className="flex justify-center lg:justify-end">
-          <a
-            href="#Header"
-            className="flex items-center justify-center gap-2 text-white no-underline transition-transform duration-300 hover:scale-110 mb-5"
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="flex items-center justify-center gap-2 text-white no-underline transition-transform duration-300 hover:scale-110"
           >
             <p className="text-base md:text-lg leading-relaxed">Voltar ao topo</p>
             <img
@@ -73,7 +73,7 @@ export function Footer() {
               alt="Seta"
               className="h-4 w-auto object-contain md:h-3 sm:h-3 max-[480px]:h-3"
             />
-          </a>
+          </button>
         </div>
       </div>
     </footer>
