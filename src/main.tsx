@@ -9,6 +9,7 @@ import { Gallery } from './pages/Gallery.tsx'
 import { Apoiadores } from './pages/Section-Apoiadores.tsx'
 import './styles/index.css'
 import Header from './pages/Header.tsx'
+import { SectionFormularios } from './pages/Section-Formulario.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
     <DepoimentoCriador/>
     <Depoimentos/>
     <CardSection/>
+    <SectionFormularios/>
     <Gallery/>
     <Apoiadores/>
     <Footer/>
