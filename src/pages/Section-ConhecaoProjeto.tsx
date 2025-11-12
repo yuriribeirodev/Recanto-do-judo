@@ -11,7 +11,7 @@ export function ConhecaOProjeto(){
 
 
     return(
-        <div className="w-full bg-branco-200 p-8 md:p-16 mx-auto">
+        <div className="w-full bg-branco-fundoCards p-8 md:p-16 mx-auto">
 
             <div className="w-full md:w-4/5 flex flex-col-reverse md:flex-row items-center justify-between mx-auto gap-12">
                 
