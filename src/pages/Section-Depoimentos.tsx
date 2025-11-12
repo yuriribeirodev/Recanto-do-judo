@@ -15,7 +15,7 @@ export function Depoimentos() {
         <div>
 
             <section className="w-full md:w-4/5 p-16 justify-between gap-5w-full flex flex-col md:flex-col items-justify mx-auto gap-12">
-                <h2 className="text-vermelho-botao text-4xl font-bold font-inter">Depoimentos</h2>
+                <h2 className="text-vermelho-botao text-3xl font-bold font-inter">Depoimentos</h2>
                     <Carousel>
                     <CarouselContent className="w-full, md:w-4/5, flex, flex-row, gap-36" >
                         <CarouselItem className="md:basis-1/2 lg:basis-1/3"><RenderVideos IdVideo={'LvWjXd7FVuw'} /></CarouselItem>

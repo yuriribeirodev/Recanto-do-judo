@@ -8,8 +8,8 @@ import {
 
 export function Gallery() {
     return(
-        <section className="flex flex-col w-full p-16 justify-center">
-             <h2 className="text-vermelho-botao text-4xl font-bold font-inter">Galeria</h2>
+        <section id="Galeria" className="flex flex-col w-full p-16 justify-center">
+             <h2 className="text-vermelho-botao text-3xl font-bold font-inter">Galeria</h2>
                 <Carousel>
                 <CarouselContent>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3"><img src="fundo.png"/></CarouselItem>

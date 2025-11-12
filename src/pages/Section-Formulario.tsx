@@ -8,9 +8,9 @@ export function SectionFormularios (){
     return (
         <>
 
-            <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8 mx-auto"> 
+            <div id="Contato" className="w-full flex flex-col md:flex-row justify-center items-center gap-8 mx-auto mt-8 mb-8"> 
 
-                <div className="w-full flex flex-col md:flex-col gap-8 mx-auto p-16">
+                <div className="w-full flex flex-col md:flex-col gap-8 mx-auto p-4">
                 
                     <CardForms/>
                 
