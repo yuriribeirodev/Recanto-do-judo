@@ -2,7 +2,7 @@ import { z } from "zod"
 
 export const formSchema = z.object({
   name: z.string().min(2),
-  CpfCnpj: z.number().min(11),
+  CpfCnpj: z.string().min(11),
   contato: z.number().min(11),
   endereco: z.string().min(15),
 })

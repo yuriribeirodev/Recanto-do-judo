@@ -2,13 +2,14 @@ export function Footer() {
   return (
     <footer className="bg-[#A81421] text-white font-poppins text-base py-6 px-4">
       <div className="flex justify-between items-center w-[90%] max-w-[87.5rem] mx-auto gap-8 flex-wrap md:flex-nowrap">
-        <div className="flex justify-center md:justify-start items-center flex-shrink-0 min-w-[6rem] w-full md:w-auto">
+        
+        <a href="#Inicio" className="flex justify-center md:justify-start items-center flex-shrink-0 min-w-[6rem] w-full md:w-auto">
           <img
             src="footer-logo.png"
             alt="Logo Recanto"
             className="h-auto w-auto max-h-16 max-w-full min-h-12 min-w-[6rem] object-contain transition-transform duration-300 hover:scale-110"
           />
-        </div>
+        </a>
 
         <nav className="w-full md:w-auto">
           <ul className="flex flex-col md:flex-row gap-6 md:gap-10 text-center md:text-left text-xl font-bold font-medium p-0 m-0 list-none">
@@ -27,7 +28,7 @@ export function Footer() {
         <div className="flex justify-center lg:justify-start">
           <ul className="flex justify-center gap-6 list-none p-0 m-0">
             <li>
-              <a href="https://www.instagram.com/instagram/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/recanto_judo/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/footer-instagram.png"
                   alt="Instagram"
@@ -36,7 +37,7 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5598984393030" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/footer-whatsapp.png"
                   alt="WhatsApp"

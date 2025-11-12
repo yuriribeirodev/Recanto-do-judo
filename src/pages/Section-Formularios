@@ -1,7 +1,0 @@
-import { zodResolver } from "@hookform/resolvers/zod"
-import { useForm } from "react-hook-form"
-import { Button } from "@/components/ui/button"
-// Importe o Form e seus sub-componentes
-import { Form } from "@/components/ui/form" 
-// Importe seu esquema e tipo do arquivo que você criou!
-import { formSchema } from "@/schemas/formSchema"

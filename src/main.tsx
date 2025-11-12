@@ -9,14 +9,18 @@ import { Gallery } from './pages/Gallery.tsx'
 import { Apoiadores } from './pages/Section-Apoiadores.tsx'
 import './styles/index.css'
 import Header from './pages/Header.tsx'
+import HeroSection from './pages/HeroSection.tsx'
+import { SectionFormularios } from './pages/Section-Formulario.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Header/>
+    <HeroSection/>
     <ConhecaOProjeto/>
     <DepoimentoCriador/>
     <Depoimentos/>
     <CardSection/>
+    <SectionFormularios/>
     <Gallery/>
     <Apoiadores/>
     <Footer/>
