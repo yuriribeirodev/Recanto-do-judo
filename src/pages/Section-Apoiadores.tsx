@@ -15,7 +15,7 @@ export function Apoiadores(){
                 <div className='w-full flex flex-col gap-[16px]'>
 
                   <h2 className="text-3xl font-bold text-vermelho-letrash1 text-left">Parceiros</h2>
-                  <p className="text-2xl font-semibold text-[var(--color-vermelho-subtitulo)] text-left">Conheça quem apoia nosso projeto</p>
+                  <p className="text-xl font-semibold text-[var(--color-vermelho-subtitulo)] text-left">Conheça quem apoia nosso projeto</p>
                   <div></div>
                   <div>
                     <Marquee>

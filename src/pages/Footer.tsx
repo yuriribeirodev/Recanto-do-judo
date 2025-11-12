@@ -28,7 +28,7 @@ export function Footer() {
         <div className="flex justify-center lg:justify-start">
           <ul className="flex justify-center gap-6 list-none p-0 m-0">
             <li>
-              <a href="https://www.instagram.com/instagram/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/recanto_judo/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/footer-instagram.png"
                   alt="Instagram"
@@ -37,7 +37,7 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5598984393030" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/footer-whatsapp.png"
                   alt="WhatsApp"
