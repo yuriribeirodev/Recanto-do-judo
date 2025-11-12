@@ -5,9 +5,13 @@ import { Icon } from "@iconify/react";
 export function CardForms() {
     return(
         <>
-            <div className="w-full flex flex-col justify-center items-center gap-8 mx-auto">
+            <div className="w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-8 mx-auto max-w-sm">
+                
+                <p className="text-vermelho-botao text-3xl font-bold font-inter">Fale Conosco</p>
 
-                <div className="bg-brando-fundoCardForms w-full p-4 justify-between w-full flex flex-col md:flex-col mx-auto rounded-2xl">
+                <div className="bg-brando-fundoCardForms w-full h-auto p-4 justify-between flex flex-col md:flex-col mx-auto rounded-2xl">
+
+                    
                     
                     <div className="flex flex-start ">
                         <Icon icon="flowbite:phone-solid" className="text-vermelho-botao font-bold w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 mb-4"/>
@@ -22,10 +26,11 @@ export function CardForms() {
             
                 
 
-            </div>
+            
             
             <div className="w-full flex flex-col justify-center items-center gap-8 mx-auto">
-                <div className="bg-brando-fundoCardForms w-full  p-4 justify-between gap-5w-full flex flex-col md:flex-col items-justify mx-auto rounded-2xl">
+                
+                <div className="bg-brando-fundoCardForms w-full p-8 justify-between gap-5 flex flex-col md:flex-col items-justify mx-auto rounded-2xl">
 
                     <div className="flex flex-start ">
                         <Icon icon="mingcute:location-2-line" className="text-vermelho-botao font-bold w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 mb-4"/>
@@ -34,12 +39,13 @@ export function CardForms() {
                         
                     </div>
                     
-               
+            
                     <p className="text-base font-bold font-inter text-vermelho-letrasp text-left">Av. De, 76- Cohab Anil I, São Luis - MA</p>
-
                 </div>
+
+            
             </div>    
-        
+        </div>
         </>
     )
 
