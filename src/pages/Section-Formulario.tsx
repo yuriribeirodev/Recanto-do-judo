@@ -8,17 +8,16 @@ export function SectionFormularios (){
     return (
         <>
 
-            <div className="w-4/5 flex flex-col md:flex-row justify-center items-center gap-8 mx-auto"> 
+            <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8 mx-auto"> 
 
-                <div className="w-4/5 flex flex-col md:flex-col gap-8 mx-auto p-16">
-                    
-                    <BotaoFaleConosco/>
+                <div className="w-full flex flex-col md:flex-col gap-8 mx-auto p-16">
+                
                     <CardForms/>
                 
                 </div>
                     
                     
-                <div className="w-4/5 flex flex-col md:flex-row justify-center items-center gap-8 mx-auto">
+                <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8 mx-auto">
                     
                     <Formularios/>
 
