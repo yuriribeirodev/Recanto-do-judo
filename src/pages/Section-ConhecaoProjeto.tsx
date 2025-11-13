@@ -15,7 +15,7 @@ export function ConhecaOProjeto(){
 
             <div className="w-full md:w-4/5 flex flex-col-reverse md:flex-row items-center justify-between mx-auto gap-16">
                 
-                <div className='w-full flex flex-col gap-[32px]'>
+                <div className='w-full flex flex-col gap-8'>
 
 
                     <h2 className="text-3xl font-bold text-vermelho-letrash1 text-left">Conheça o Projeto</h2>
