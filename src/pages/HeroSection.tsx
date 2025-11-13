@@ -12,8 +12,8 @@ export default function HeroSection() {
         > 
             <div className="bg-[url('/fundo-hero.svg')] font-poppins w-full justify-center flex bg-cover bg-center h-full">
                 <div className="w-4/5 py-[8%]">
-                    <h1 className="text 3xl text-vermelho-letrash1 md:text-6xl font-bold mb-6">
-                        Recanto<br/>do Judô
+                    <h1 className="text-5xl text-vermelho-letrash1 md:text-6xl pt-8 font-bold mb-6">
+                        Recanto<br/>Judô
                     </h1>
                     <Button onClick={Vaquinha} className="w-1/2 md:w-1/5" variant="destructive">Apoie</Button>
                 </div>

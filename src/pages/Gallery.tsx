@@ -10,7 +10,7 @@ export function Gallery() {
     return(
         <section id="Galeria" className="flex flex-col items-center w-full p-8 md:p-16 mx:auto">
             <div className="flex flex-col gap-16 w-4/5">
-             <h2 className="text-vermelho-botao text-4xl font-bold font-inter">Galeria</h2>
+             <h2 className="text-vermelho-botao text-3xl font-bold font-inter text-left">Galeria</h2>
                 <Carousel>
                 <CarouselContent>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3"><img src="foto-kid1.JPG" className="aspect-square object-cover rounded-xl w-full"/></CarouselItem>
