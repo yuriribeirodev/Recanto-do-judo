@@ -8,7 +8,7 @@ export function SectionFormularios (){
     return (
         <>
 
-            <div id="Contato" className="w-full flex flex-col md:flex-row justify-center items-center gap-8 mx-auto mt-8 mb-8"> 
+            <div id="Contato" className="w-full flex flex-col md:flex-row justify-center items-center gap-4 mx-auto mt-8 mb-8"> 
 
                 <div className="w-full flex flex-col md:flex-col gap-8 mx-auto p-4">
                 
@@ -17,7 +17,7 @@ export function SectionFormularios (){
                 </div>
                     
                     
-                <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8 mx-auto">
+                <div className="w-full flex flex-col md:flex-row justify-center items-center mx-auto">
                     
                     <Formularios/>
 

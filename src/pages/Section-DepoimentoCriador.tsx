@@ -28,9 +28,7 @@ export function DepoimentoCriador(){
 
 
                         <p className="text-vermelho-letrasp text-xl leading-relaxed text-left">
-                        Como explica o Sensei Gildean, criador do projeto, o Recanto Judô nasceu de uma necessidade clara: a falta de opções esportivas para as crianças do bairro. Mais do que buscar medalhas, o objetivo é seguir o ideal original do fundador do judô: <strong>formar cidadãos de bem</strong>.<br />
-                        O esporte é utilizado como uma poderosa ferramenta de transformação. Em pouco tempo, o projeto já ofereceu a crianças da comunidade oportunidades que talvez nunca tivessem de outra forma, como viajar pelo país para competir.<br />
-                        A missão é clara: usar o judô para ensinar disciplina, respeito, perseverança e mostrar a cada aluno até onde ele pode chegar.
+                        Como explica o Sensei Gildean, criador do projeto, o Recanto Judô nasceu de uma necessidade clara: a falta de opções esportivas para as crianças do bairro. Mais do que buscar medalhas, o objetivo é seguir o ideal original do fundador do judô: formar cidadãos de bem. O esporte é utilizado como uma poderosa ferramenta de transformação. Em pouco tempo, o projeto já ofereceu a crianças da comunidade oportunidades que talvez nunca tivessem de outra forma, como viajar pelo país para competir. A missão é clara: usar o judô para ensinar disciplina, respeito, perseverança e mostrar a cada aluno até onde ele pode chegar.
                         </p>
 
                         <Button onClick={Vaquinha} className='w-full md:w-1/5 ' variant="destructive">Seja um apoiador</Button>

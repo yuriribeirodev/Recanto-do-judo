@@ -40,7 +40,7 @@ export function CardForms() {
                     </div>
                     
             
-                    <p className="text-base font-bold font-inter text-vermelho-letrasp text-left">Av. De, 76- Cohab Anil I, São Luis - MA</p>
+                    <p className="text-base font-bold font-inter text-vermelho-letrasp text-left">Av. 10 Cohab Anil III, São Luis - MA</p>
                 </div>
 
             
