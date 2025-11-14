@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 export default function HeroSection() {
     function Vaquinha(){
-        const url:string="https://www.vakinha.com.br/ong/centro-de-estudos-das-relacoes-de-trabalho-e-desigualdades?utm_internal_source=ongs-parceiras-quero-doar"
+        const url:string="https://www.vakinha.com.br/5807365"
         window.location.href=url
     }
 
