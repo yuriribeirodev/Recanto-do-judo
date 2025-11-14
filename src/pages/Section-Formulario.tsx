@@ -1,7 +1,4 @@
-import { Card } from "../components/card"
 import { CardForms } from "@/components/cardForms"
-import { Button } from '@/components/ui/button.tsx'
-import { BotaoFaleConosco } from "@/components/buttonFaleConosco"
 import { Formularios } from "@/components/forms"
 
 export function SectionFormularios (){
