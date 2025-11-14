@@ -37,7 +37,7 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://wa.me/5598984393030" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5598991560036" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/footer-whatsapp.png"
                   alt="WhatsApp"
