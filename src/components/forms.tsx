@@ -19,8 +19,8 @@ export function Formularios(){
             return;
         }
 
-        const msg = `Oi, meu nome é ${name},${mensg} . Meus contatos são: Celular:${cel} email: ${email}  `
-        const url = `https://wa.me/5598984393030?text=${encodeURIComponent(msg)}`
+        const msg = `Oi, meu nome é ${name}. ${mensg} . Meus contatos são: Celular:${cel}. Email: ${email}  `
+        const url = `https://wa.me/5598991560036?text=${encodeURIComponent(msg)}`
         console.log("Solicitação enviada com sucesso")
 
         window.open(url, '_blank')
@@ -57,9 +57,9 @@ export function Formularios(){
 
     return(
         <>
-        <div className="bg-white border border-gray-200 rounded-2xl shadow-lg p-4 w-4/5 max-w-md mx-auto">
+        <div className="bg-white border border-gray-200 rounded-2xl shadow-lg p-4 w-4/5 max-w-md mx-auto md:m-0">
 
-            <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 <input type="text"  placeholder="Nome" onChange={handleChangeName} value={name} className={inputStyle}/>
                 <input type="text" placeholder="Email" onChange={handleChangeEmail} value={email} className={inputStyle}/>
                 <input type="text" placeholder="Celular" onChange={handleChangeCel} value={cel} className={inputStyle}/>

@@ -23,7 +23,7 @@ export default function Header() {
 
         <div className="flex justify-center md:justify-end w-full md:w-auto mb-5 md:mb-0">
           <a
-            href="https://wa.me/5598984393030"
+            href="https://wa.me/5598991560036"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-vermelho-botao hover:bg-[#6a0c13] text-white font-semibold text-xl py-2 px-5 rounded-lg transition-all shadow-md hover:scale-105 text-center"
