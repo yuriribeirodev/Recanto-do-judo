@@ -4,16 +4,21 @@ import { Formularios } from "@/components/forms"
 export function SectionFormularios (){
     return (
         <>
-            <div id="Contato" className="w-full  flex flex-col md:flex-row justify-center items-center gap-4 mx-auto md:pt-8 pb-8 md:p-0"> 
+            <div id="Contato" className="w-4/5  flex flex-col md:flex-row justify-between items-start  m-auto py-16 sm:py-24 md:py-32 w-full"> 
 
-                <div className="w-full flex flex-col md:flex-col mx-auto p-4">
+                
+                <div className="w-full flex flex-col md:flex-col mx-auto p-4 gap-8">
+
+                    <p className="text-vermelho-botao text-3xl font-bold font-inter flex w-full max-w-md mx-auto">Fale Conosco</p>
+
+
                 
                     <CardForms/>
                 
                 </div>
                     
                     
-                <div className="w-full flex flex-col md:flex-row justify-center items-center mx-auto md:pt-8 md-pl-o pb-8 md:mr-24">
+                <div className="w-full flex flex-col md:flex-row justify-center items-center mx-auto  md-pl-o md:mr-24 mt-20">
                     
                     <Formularios/>
 

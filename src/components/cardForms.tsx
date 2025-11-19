@@ -5,9 +5,8 @@ import { Icon } from "@iconify/react";
 export function CardForms() {
     return(
         <>
-            <div className="w-full flex flex-col justify-center items-center md:justify-start md:items-start gap-8 mx-auto max-w-md">
+            <div className="w-full flex flex-col justify-start items-center md:justify-start md:items-start gap-8 mx-auto max-w-md">
                 
-                <p className="text-vermelho-botao text-3xl font-bold font-inter">Fale Conosco</p>
 
                 <div className="bg-brando-fundoCardForms w-full h-auto p-4 justify-between flex flex-col md:flex-col mx-auto rounded-2xl">
 
