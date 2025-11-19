@@ -15,8 +15,8 @@ export default function HeroSection() {
     relative w-full font-poppins flex justify-center
     bg-[url('/fundo-heroR.svg')] md:bg-[url('/fundo-hero.svg')]
     bg-center bg-no-repeat
-    bg-contain md:bg-cover
-    aspect-9/16 sm:aspect-3/4
+    bg-cover md:bg-cover
+    aspect-4/5 sm:aspect-3/4
     md:h-[90vh] lg:h-screen
   "
   style={{ maxHeight: '900px' }}

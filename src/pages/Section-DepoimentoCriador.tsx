@@ -17,7 +17,7 @@ export function DepoimentoCriador(){
 
                 <div className="w-full md:p-16 mx-auto">
                     
-                    <div className='w-4/5 mx-auto flex flex-col gap-[32px] justify-center items-center md:items-start'>
+                    <div className='md:w-full lg:w-4/5 mx-auto flex flex-col gap-[32px] justify-center items-center md:items-start'>
 
 
                         <h2 className="text-3xl font-bold font-inter text-vermelho-letrash1 text-left">A Filosofia por Trás do Tatame</h2>
