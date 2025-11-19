@@ -13,13 +13,13 @@ export default function HeroSection() {
 <div
   className="
     relative w-full font-poppins flex justify-center
-    bg-[url('/fundo-heroR.svg')] md:bg-[url('/fundo-hero.svg')]
+    bg-[url('/fundo-heroR.png')] md:bg-[url('/fundo-hero.png')]
     bg-center bg-no-repeat
     bg-cover md:bg-cover
     aspect-4/5 sm:aspect-3/4
     md:h-[90vh] lg:h-screen
   "
-  style={{ maxHeight: '900px' }}
+  style={{ maxHeight: '550px' }}
 >
   <div className="w-4/6 py-[8%] flex flex-col h-auto items-center text-center md:items-start md:text-left">
     <h1 className="text-5xl md:text-6xl text-vermelho-letrash1 pt-8 font-bold mb-6">
