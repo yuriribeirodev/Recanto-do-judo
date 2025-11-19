@@ -22,7 +22,7 @@ export function DepoimentoCriador(){
 
                         <h2 className="text-3xl font-bold font-inter text-vermelho-letrash1 text-left">A Filosofia por Trás do Tatame</h2>
                     
-                        <div className="w-4/5 md:self-center">
+                        <div className="w-full md:self-center">
                             <RenderVideos IdVideo={'a10UB2LH8y0'} />
                         </div>
 

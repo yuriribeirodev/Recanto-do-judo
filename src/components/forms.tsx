@@ -57,9 +57,9 @@ export function Formularios(){
 
     return(
         <>
-        <div className="bg-white border border-gray-200 rounded-2xl shadow-lg p-4 w-4/5 max-w-md mx-auto md:m-0">
+        <div className="bg-white border border-gray-200 rounded-2xl shadow-lg p-4 w-4/5 max-w-md mx-auto ">
 
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4"> Envie suas dividas
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4 text-vermelho-botao text-sm font-bold font-inter"> Envie suas duvidas
                 <input type="text"  placeholder="Nome" onChange={handleChangeName} value={name} className={inputStyle}/>
                 <input type="text" placeholder="Email" onChange={handleChangeEmail} value={email} className={inputStyle}/>
                 <input type="text" placeholder="Celular" onChange={handleChangeCel} value={cel} className={inputStyle}/>

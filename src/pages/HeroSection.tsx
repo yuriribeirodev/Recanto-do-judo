@@ -21,7 +21,7 @@ export default function HeroSection() {
   "
   style={{ maxHeight: '900px' }}
 >
-  <div className="w-4/6 py-[8%] flex flex-col items-center text-center md:items-start md:text-left">
+  <div className="w-4/6 py-[8%] flex flex-col h-auto items-center text-center md:items-start md:text-left">
     <h1 className="text-5xl md:text-6xl text-vermelho-letrash1 pt-8 font-bold mb-6">
       Recanto<br />Judô
     </h1>
