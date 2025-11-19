@@ -21,7 +21,7 @@ export function Apoiadores(){
                     <Marquee>
                       <MarqueeFade side="left" />
                       <MarqueeFade side="right" />
-                      <MarqueeContent speed={30}>
+                      <MarqueeContent speed={35}>
                         {new Array(10).fill(null).map((_, index) => (
                           <MarqueeItem className="mx-24 h-64 w-64 flex items-center justify-center mb-8" key={index}>
                             <img
