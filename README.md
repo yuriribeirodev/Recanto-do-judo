@@ -6,7 +6,7 @@ Aplicação web desenvolvida como parte do Projeto Final do módulo de Front End
 
 ## Descrição
 
-O Recanto Judô Web App é uma aplicação web composta por uma landing page e um CRUD completo, criada para melhorar a comunicação e a visibilidade do projeto social.
+O Recanto Judô Web App é uma aplicação web composta por uma landing page, criada para melhorar a comunicação e a visibilidade do projeto social.
 A aplicação promove visibilidade institucional, conectando apoiadores e marcas ao projeto.
 
 ---
@@ -35,6 +35,7 @@ A aplicação promove visibilidade institucional, conectando apoiadores e marcas
 * CSS3 – estilização e responsividade.
 * JavaScript (ES6+) – interatividade e manipulação dinâmica.
 * React – componentes reutilizáveis e controle de rotas.
+* Tailwind CSS - componentização e responsividade.
 * Git e GitHub – controle de versão e repositório.
 
 ---
@@ -57,7 +58,6 @@ Etapas:
 
 | Requisito         | Objetivo                                      | Tipo       |
 | ----------------- | --------------------------------------------- | ---------- |
-| CRUD funcional    | Gerenciar dados de forma completa             | Necessário |
 | Responsividade    | Adaptar-se a dispositivos móveis e desktop    | Necessário |
 | Acessibilidade    | Atender boas práticas de inclusão digital     | Necessário |
 | Usabilidade       | Facilitar navegação e interação               | Necessário |
@@ -70,18 +70,21 @@ Etapas:
 ## Estrutura de Desenvolvimento
 
 ```
-RecantoJudo/
+RECANTO-DO-JUDO/
+├── node_modules/
 ├── public/
-│   ├── index.html
-│   └── assets/
 ├── src/
 │   ├── components/
+│   │   └── ui/
+│   ├── lib/
 │   ├── pages/
-│   ├── services/
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
+│   ├── schemas/
+│   └── styles/
+├── .gitignore
+├── components.json
+├── eslint.config.js
+└── index.html
+
 ```
 
 ---
