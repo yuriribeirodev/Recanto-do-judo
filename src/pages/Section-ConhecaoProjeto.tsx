@@ -24,7 +24,7 @@ export function ConhecaOProjeto(){
                     <Button onClick={Vaquinha} className='w-full md:w-1/3 mb-8' variant="destructive">Seja um apoiador</Button>
                 </div>
                 <div className="hidden md:block w-full h-auto flex justify-center items-center">
-                    <img src="public/ImagemSobreNos.png" alt="Imagem de Alunos do projeto Recanto do Judô" />
+                    <img src="/ImagemSobreNos.png" alt="Imagem de Alunos do projeto Recanto do Judô" />
                 </div>
             </div>
 
