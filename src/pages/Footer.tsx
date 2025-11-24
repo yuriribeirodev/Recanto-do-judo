@@ -46,7 +46,7 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.tiktok.com/@vida_vitt" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/footer-tiktok.png"
                   alt="Tiktok"
