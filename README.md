@@ -22,7 +22,6 @@ A aplicação promove visibilidade institucional, conectando apoiadores e marcas
 ## Funcionalidades
 
 * Landing page com informações institucionais e de contato.
-* CRUD completo para gerenciamento de registros.
 * Design responsivo adaptado a diferentes dispositivos.
 * Acessibilidade baseada em boas práticas de contraste e navegação.
 * Interface intuitiva com foco na experiência do usuário.
