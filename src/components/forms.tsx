@@ -57,7 +57,7 @@ export function Formularios(){
 
     return(
         <>
-        <div className="bg-white border border-gray-200 rounded-2xl shadow-lg p-4 w-4/5 max-w-md mx-auto ">
+        <div className="bg-white border border-gray-200 rounded-xl shadow-lg p-4 w-4/5 max-w-md mx-auto ">
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4 text-center text-vermelho-botao text-lg font-bold font-inter"> Envie suas dúvidas:
                 <input type="text"  placeholder="Nome" onChange={handleChangeName} value={name} className={inputStyle}/>
